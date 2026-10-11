@@ -1,0 +1,23 @@
+@'
+# Environment and API keys
+.env
+.env.*
+
+# IDE settings
+.vscode/
+settings.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Generated FAISS database
+faiss_db/
+faiss_index/
+index.faiss
+index.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
+'@ | Set-Content Backend\.gitignore
