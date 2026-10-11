@@ -70,10 +70,7 @@ The objective of RAGnify is to demonstrate how Retrieval-Augmented Generation ca
 
 ## 🚀 Future Enhancements
 
-- Support for multiple PDF documents.
-- Source citations and page-level references in answers.
 - Conversational chat history.
-- User authentication and session management.
 - MySQL integration for storing user information and chat history.
 - Improved error handling and document-processing validation.
 - A web-based chat interface for an improved user experience.
