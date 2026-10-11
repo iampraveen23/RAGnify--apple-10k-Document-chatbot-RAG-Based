@@ -19,7 +19,7 @@ from dotenv import load_dotenv
 
 app = Flask(__name__)
 
-# Replace this placeholder with your actual Gemini API key
+# load API key from .env
 load_dotenv()
 GEMINI_API_KEY = os.getenv("Gemini_api_key")
                                       
